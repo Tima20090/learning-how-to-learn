@@ -13,5 +13,46 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   /* parameters for the header section */
 }
+.header_title{
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+margin-right: 20vh;
+font-size:600%;
+height: 64px;
+width: 730px;
+font-weight: bolder;
+  /* Position the element in the center of the page */
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  /* Move the element up by half of its own height, and to the left by half of its own width */
+  transform: translateY(-50%);
+  text-align: center;
+}
+.header_subtitle{
+  position: absolute;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+margin-right: 20vh;
+font: size 14px;
+height: 64px;
+max-width: 388px;
+min-width: 30px;
+font-weight: lighter;
+  /* Position the element in the right bottom corner of the page */
+  bottom: 2%;
+  right: 60%;
+}
+.main_illustration{
+  position: absolute;
+width: 568px;
+height: 64px;
+right:12%;
+
+}
+img{
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+
